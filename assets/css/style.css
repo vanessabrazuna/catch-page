@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ==== SECTION MAIN ============================== */
+.main {
+  background-color: #1D2437;
+  background: url('../images/bg.png') no-repeat center center fixed;
+  background-size: cover;
+}
+.container {
+  max-width: 1070px;
+  margin: auto;
+  color: #FFF;
+}
+header {
+  padding-top: 2.8125rem;
+}
+.heroArea {
+  display: flex;
+}
+.heroArea .leftSide {
+  flex: 1;
+}
+.heroArea .leftSide h1 {
+  margin: 8rem 0 1.3125rem 0;
+  font-size: 2.625rem;
+  font-weight: 700;
+  line-height: 3.125rem;
+}
+.heroArea .leftSide .subtitle {
+  width: 23.1875rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.4375rem;
+  color: #999;
+}
+.heroArea .leftSide .form input {
+  width: 18rem;
+  height: 2.5rem;
+  margin: 0 .3rem 2rem 0;
+  padding: .625rem;
+  border: 1px solid rgba(255,255,255,0.4);
+  background: transparent;
+  color: #FFF;
+  outline: none;
+}
+.heroArea .leftSide .form button {
+  width: 6.6875rem;
+  height: 2.5rem;
+  padding: .5rem .9375rem;
+  background-color: #0071B7;
+  color: #FFF;
+  font-size: .875rem;
+  line-height: 1.4375rem;
+  border: 0;
+  cursor: pointer;
+}
+.heroArea .leftSide .form button:hover {
+  opacity: .7;
+  transition: all .2s ease-in-out;
+}
+.heroArea .leftSide .techs {
+  margin-bottom: 8rem;
+}
+.heroArea .leftSide .techs img {
+  margin-right: .7rem;
+  cursor: pointer;
+}
+.heroArea .leftSide .techs img:hover {
+  opacity: .7;
+  transition: all .2s ease-in-out;
+}
+.heroArea .rightSide {
+  flex: 1;
+  background: url('../images/hero.png') no-repeat center center;
+  background-size: cover;
+}
+
+/* ==== SECTION INFO ============================== */
+.info {
+  height: 6.25rem;
+  border-bottom: 2px solid #EAEEF1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info .infoText {
+  margin: 0 1.625rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #C2C8CB;
+}
+.info .infoCircle {
+  width: .375rem;
+  height: .375rem;
+  background-color: #C2C8CB;
+  border-radius: 50%;
+}
+
+/* ==== SECTION INSTRUCTIONS ============================== */
+.instructions .instContainer {
+  max-width: 900px;
+  margin: auto;
+  padding: 4.375rem 0;
+}
+.instContainer .instItem {
+  border-left: 3px solid #ECF0F3;
+  display: flex;
+}
+.instContainer .instCircle {
+  margin-left: -.5625rem;
+  width: 1.0625rem;
+  height: 1.0625rem;
+  background-color: #0071B7;
+  border-radius: 50%;
+}
+.instContainer .instText {
+  margin-left: 3.875rem;
+  flex: 1;
+}
+.instContainer .instText h2 {
+  margin-top: -.625rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.instContainer .instText p {
+  margin: 2.3125rem 0 5.6875rem 0;
+  width: 34.6875rem;
+  color: #00000080;
+  line-height: 1.4375rem;
+}
+.instContainer .instItem:last-child {
+  border: 0;
+}
+
+/* ==== SECTION CTA ============================== */
+.cta {
+  background-color: #1D2437;
+  border-bottom: 2px solid #FFFFFF1A;
+}
+.ctaContainer {
+  margin: auto;
+  padding: 6.25rem 0;
+  max-width: 800px;
+  display: flex;
+}
+.ctaContainer .ctaLeft {
+  flex: 1;
+}
+.ctaContainer .ctaLeft h2 {
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.ctaContainer .ctaLeft p {
+  margin-top: 1.56rem;
+  width: 302px;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 25.2px;
+  color: #FFFFFF80;
+}
+.ctaContainer .ctaRight {
+  flex: 1;
+}
+.ctaContainer .ctaRight input {
+  width: 22.625rem;
+  height: 2.5rem;
+  margin: 0 .3rem 2rem 0;
+  padding: .625rem;
+  border: 1px solid rgba(255,255,255,0.4);
+  background: transparent;
+  color: #FFF;
+  outline: none;
+}
+.ctaContainer .ctaRight button {
+  width: 22.625rem;
+  height: 2.5rem;
+  padding: .5rem .9375rem;
+  background-color: #0071B7;
+  color: #FFF;
+  font-size: .875rem;
+  line-height: 1.4375rem;
+  border: 0;
+  cursor: pointer;
+}
+.ctaContainer .ctaRight button:hover {
+  opacity: .7;
+  transition: all .2s ease-in-out;
+}
+
+/* ==== FOOTER  ================================== */
+footer {
+  background-color: #1D2437;
+  height: 7rem;
+}
+footer .footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1070px;
+  margin: auto;
+}
+footer .footerLeft {
+  margin-top: 2rem;
+}
+footer .footerRight {
+  margin-top: 2.5rem;
+  color: #FFFFFF80;
+  text-align: right;
+  line-height: 1.56rem;
+}
+footer .footerRight a {
+  text-decoration: none;
+  color: #FFFFFF80;
+}
+footer .footerRight a:hover {
+  text-decoration: underline;
+}
+
+/* ==== RESPONSIVIDADE  ========================== */
+@media (max-width: 1030px) {
+  .main .container {
+    height: 670px;
+    padding: 0 1.5rem;
+  }
+  .heroArea .rightSide {
+    height: 597px;
+    background-size: 120% auto;
+    background-position-y: bottom;
+  }
+  footer .footerContainer {
+    padding: 0 1.5rem;
+  }
+}
+@media (max-width: 900px) {
+  .main .container {
+    height: 950px;
+  }
+  .heroArea {
+    flex-direction: column-reverse;
+  }
+  .heroArea .leftSide h1 {
+    margin-top: 0;
+    text-align: center;
+  }
+  .heroArea .leftSide .subtitle {
+    width: 100%;
+    text-align: center;
+  }
+  .heroArea .leftSide .form input,
+  .heroArea .leftSide .form button {
+    width: 100%;
+  }
+  .heroArea .leftSide .techs {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .heroArea .rightSide {
+    flex: none;
+    height: 30rem;
+    background-size: auto 100%;
+  }
+  .heroArea .rightSide .rightSideLinear {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(360deg, #1D2437 8.92%, rgba(29, 36, 55, 0) 65.85%);
+    background-size: cover;
+  }
+  .info {
+    text-align: center;
+  }
+  .instContainer .instItem {
+    margin: 0 5rem;
+  }
+  .cta .ctaContainer {
+    margin-left: 4rem;
+  }
+  .ctaContainer .ctaLeft p {
+    width: 300px;
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .instContainer .instItem {
+    margin: 0 2rem 0 5rem;
+  }
+  .cta .ctaContainer {
+    margin-right: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .ctaContainer .ctaLeft p {
+    width: 100%;
+  }
+  .info {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  .heroArea .rightSide {
+    height: 350px;
+    background-size: 100% auto;
+    background-position-y: bottom;
+  }
+  .instContainer .instItem {
+    margin-left: 2.5rem;
+  }
+  .instContainer .instText p {
+    width: 100%;
+  }
+  footer {
+    height: 10rem;
+  }
+  footer .footerContainer {
+    flex-direction: column;
+  }
+  footer .footerRight {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  @media (max-width: 375px) {
+    .heroArea .leftSide .techs {
+      margin-right: -1rem;
+    }
+  }
+}
+  
