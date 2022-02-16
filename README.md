@@ -1,7 +1,7 @@
-# Página de Captura B7Web
+# Página de Captura B7Web</br>
 
 
-- Criado em aula uma página de captura referente a plataforma da b7web. Sendo um site responsivo com layouts flexiveis de acordo com o dispositivo acessado. Sendo ele smartphone, tablet ou desktop.
+- Criado em aula uma página de captura referente a plataforma da b7web. Sendo um site responsivo com layouts flexiveis de acordo com o dispositivo acessado. Sendo ele smartphone, tablet ou desktop.</br>
 
 ---
 
