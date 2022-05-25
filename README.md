@@ -1,18 +1,13 @@
-# Página de Captura B7Web
+# B7Web Capture Page
 
 </br>
 
 
-- Criado em aula uma página de captura referente a plataforma da b7web. Uma página responsiva com layouts flexiveis de acordo com o dispositivo acessado. Sendo ele smartphone, tablet ou desktop.
+- Created in class a capture page referring to the b7web platform. A responsive page with flexible layouts depending on the device accessed. Whether it's smartphone, tablet or desktop.
 </br>
 
 ---
 
-### Desktop:
-![webpage](https://imgur.com/8fb0qXM.png)
-
-### Tablet:
-![webpage](https://imgur.com/yJmZUkK.png)
-
-### Mobile:
-![webpage](https://imgur.com/Ube3aaa.png)
+<p align="left">
+  <img alt="Capture Page" src="https://user-images.githubusercontent.com/73675022/170385346-a997731d-bad3-43b9-b4b0-b13b30e27ee8.png" width="40%">
+</p>
